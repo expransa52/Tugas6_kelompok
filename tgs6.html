@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kuis-Pilkom</title>
   <link rel="stylesheet" href="tgs6.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
-  <!--Halaman login-->
   <div id="halaman_login">
     <form id="login_form">
-      <input type="text" id="username" placeholder="Masukan Nama mu!" required/>
-      <input type="password" id="password" placeholder="Masukan Password mu!" required/>
-      <button type="submit">login</button>
+      <input type="text" id="username" placeholder="Masukan Nama mu!" required />
+      <input type="password" id="password" placeholder="Masukan Password mu!" required />
+      <button type="submit">Login</button>
       <div id="login_error"></div>
     </form>
   </div>
-  <!--Halaman Peraturan-->
+  <!-- Halaman Peraturan -->
   <div id="halaman_aturan" style="display: none;">
     <h2>Peraturan Kuis</h2>
     <ul>
@@ -27,20 +27,27 @@
       <li>Setelah soal terakhir, klik tombol "Submit" untuk melihat hasil.</li>
       <li>Waktu pengerjaan kuis adalah <strong>30 menit</strong>. Timer akan berjalan saat kuis dimulai.</li>
     </ul>
-    </div>
-    <!--Halaman Kuis-->
-<div id="halaman_kuis" style="display:none;">
-  <div id="timer">Waktu tersisa: 30:00</div>
-  <div id="question_number"></div>
-  <div id="question_text"></div>
-  <ul id="answer_options"></ul>
-  <button id="prev_btn" disabled>Kembali</button>
-  <button id="next_btn"disabled>lanjut</button>
-  <button id="submit_btn" style="display:none;">Submit</button>
-</div>
+    <button id="startBtn">Mulai</button>
+  </div>
 
-<!--Halaman Hasil-->
-<div id="halaman_hasil" style="display:none;"></div>
-  <script src="tgs6.js"></script>
+  <!-- Halaman Kuis -->
+  <div id="halaman_kuis" style="display:none;">
+    <div id="timer">Waktu tersisa: 30:00</div>
+    <div id="question_number"></div>
+    <div id="question_text"></div>
+    <ul id="answer_options"></ul>
+    <button id="prev_btn" disabled>Kembali</button>
+    <button id="next_btn" disabled>Lanjut</button>
+    <button id="submit_btn" style="display:none;">Submit</button>
+  </div>
+
+  <!-- Halaman Hasil -->
+  <div id="halaman_hasil" style="display:none;">
+    <h2>Hasil Kuis</h2>
+    <p>Terima kasih sudah mengerjakan kuis.</p>
+    <p id="skor_akhir"></p> 
+  </div>
+
+<script src="tgs6.js"></script>
 </body>
 </html>
