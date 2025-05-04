@@ -9,8 +9,8 @@
 
         {
             "id":2,
-            "soal": "Cra menyimpan data pada Json yang berisi elemen-elemen yang tipe data sama, tetapi juga dapat tetapi juga dapat memilih tipe data yang berbeda adalah....",
-            "opsi":["DOM", "Fetch","Aray","Object"],
+            "soal": "Cara menyimpan data pada Json yang berisi elemen-elemen yang tipe data sama, tetapi juga dapat tetapi juga dapat memilih tipe data yang berbeda adalah....",
+            "opsi":["DOM", "Fetch","Array","Object"],
             "answer":"Array"
         },
 
@@ -30,7 +30,7 @@
 
         {
             "id":5,
-            "soal": "Proses pengembangan dua branch lebih sehingga semua perubahan tersebut menjadi satu kesatuan diesbut....",
+            "soal": "Proses pengembangan dua branch lebih sehingga semua perubahan tersebut menjadi satu kesatuan disebut....",
             "opsi":["Merge","Branch Mix","Branch Target","Mix Merge"],
             "answer":"Merge"
         },
