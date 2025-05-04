@@ -35,6 +35,41 @@
             "answer":"Merge"
         },
 
+        {
+            "id":6,
+            "soal": "Perintah git yang menginisialisasi repository git baru di dalam direktori adalah.....",
+            "opsi":["git pull","git add","git remote","git init"],
+            "answer":"git init"
+        },
+
+        {
+            "id":7,
+            "soal": "Dua cara pertukaran data yang terjadi di repository lokal dan repository remot disebut dengan.....",
+            "opsi":["git up dan git down","git push dan git pull","git out dan git in","git dan github"],
+            "answer":"git push dan git pull"
+        },
+
+        {
+            "id":8,
+            "soal": "Perintah yang digunakan untuk mengubah style pada javascript  DOM adalah .....",
+            "opsi":["document.getElementById","element.inner.HTML","element.style.property","element.remove"],
+            "answer":"element.style.property"
+        },
+
+        {
+            "id":9,
+            "soal": "Fungsi dari event listener .....",
+            "opsi":["interaksi","mengubah style","mengakses element","mengubah element"],
+            "answer":"interaksi"
+        },
+
+        {
+            "id":10,
+            "soal": "Dalam Javascript, const digunakan untuk.....",
+            "opsi":["mendeklarasikan variabel yang diubah","mendeklarasikan variabel konstan","mendeklarasikan array saja","membuat class baru"],
+            "answer":"mendeklarasikan variabel konstan"
+        }
+
 
     ]
         
